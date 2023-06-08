@@ -1,0 +1,95 @@
+body, html {
+font-size:20px;
+background:#000;
+color:#FFF;
+}
+@media (min-height:626px) and (min-width:365px) {
+body, html{
+font-size:20px;
+}
+}
+@media (min-height:912px) and (min-width:540px) {
+body, html{
+font-family:40px;
+}
+}
+@media (min-height:952px) and (min-width:784px) {
+body, html{
+font-size:60px;
+}
+}
+@media (min-width:992px) and (min-height:654px) {
+body, html{
+font-family:100px;
+}
+}
+@media (min-width:1363px) and (min-height:559px) {
+body, html{
+font-family:120px;
+}
+}
+@media (min-width:1932px) and (min-height:1121px) {
+body, html {
+font-family:150px;
+}
+}
+.container {
+margin:0;
+padding:0;
+width:100vw;
+}
+.navbar {
+width:100vw;
+padding:0;
+}
+.btn {
+width:6.5rem;
+font-size:1rem;
+border-width:.1rem;
+border-radius:.1rem;
+line-height:1rem;
+margin:.1rem auto;
+padding:-.5em;
+border-color:rgba(255,255,255,.8);
+color:#FFF;
+background: linear-gradient(to bottom right,hsla(48, 81.97%, 76.08%, .36) 0%,hsla(45.1, 81.1%, 74.4%, .371) 7.9%,hsla(42.52, 80.42%, 72.7%, .381) 14.1%,hsla(40.24, 79.89%, 71%, .391) 18.9%,hsla(38.22, 79.49%, 69.29%, .501) 22.9%,hsla(36.45, 79.2%, 67.56%, .51) 26.1%,hsla(34.9, 79.02%, 65.82%, .518) 29.2%,hsla(33.58, 78.93%, 64.06%, .526) 32.2%,hsla(32.47, 78.93%, 62.29%, .534) 35.7%,hsla(31.57, 79%, 60.48%, .54) 39.9%,hsla(30.87, 79.16%, 58.64%, .547) 45.2%,hsla(30.4, 79.38%, 56.74%, .553) 51.9%,hsla(30.16, 79.7%, 54.76%, .558) 60.4%,hsla(30.21, 80.11%, 52.63%, .563) 71%,hsla(30.66, 80.68%, 50.15%, .567) 84.1%,hsla(32.87, 100%, 45.1%, .57) 100%),url(new.png),url(Vignette.png);
+background-position:top right;
+text-shadow:0 .2rem .15rem rgba(0,0,0,0.7), 0 .4rem .65rem rgba(0,0,0,0.2), 0 .9rem 1.15rem rgba(0,0,0,0.2);
+background-size:cover;
+background-color:#000;
+display:inline-block;
+position:relative;
+padding-left:0;
+padding-right:0;
+}
+.btn:focus  {
+background-color:rgba(255,204,51,.6);
+}
+.ult {
+z-index:1;
+animation-duration:1180ms;
+animation-iteration-count:0;
+animation-delay:1s;
+transition:1180ms inset,1180ms opacity;
+top:-2.6rem;
+bottom:-2.6rem;
+}
+.pnult {
+z-index:2;
+animation-duration:1180ms;
+animation-delay:1s;
+animation-iteration-count:0;
+transition:1180ms inset,1180ms opacity;
+inset:2.6rem -4.5rem;
+}
+.alph {
+z-index:3;
+animation-duration:1180ms;
+animation-iteration-count:0;
+animation-delay:1s;
+transition:1180ms inset,1180ms opacity;
+inset:2.6rem 4.5rem;
+}
+@keyframes anim {
+
+}
